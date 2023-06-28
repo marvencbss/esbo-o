@@ -1,2 +1,0 @@
-# esbo-o
-try
