@@ -1,0 +1,47 @@
+body {
+    margin: 0p; 
+    background-color: black;
+}
+
+
+body > header, body > footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: aliceblue;
+    color: black;
+    padding: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.posts header {
+    background-color: rgb(64,64,64);
+    color: aliceblue;
+    padding: 1em 0em 1em 0em;
+    font-size: larger;
+    
+
+}
+
+main {
+    display: flex;
+    padding: 1em;
+}
+
+footer {
+    justify-content: center;
+}
+
+.posts article {
+    display: flexbox;
+    background-color: aqua;
+    color: black;
+    margin-top: 1em;
+    padding: 1em;
+    border-style: solid;
+}
+
+.posts article header {
+    font-size: large;
+    border-style: solid;
+    font-size: large;
+}
